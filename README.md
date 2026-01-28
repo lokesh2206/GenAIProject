@@ -1,4 +1,4 @@
-# 🤖 AI Data Engineer Assistant
+# AI Data Engineer Assistant
 
 An intelligent assistant powered by LangGraph and GenAI that helps data engineers analyze CSV files, generate SQL queries, create data quality rules, optimize Spark jobs, analyze table dependencies, and generate documentation.
 
@@ -6,16 +6,16 @@ An intelligent assistant powered by LangGraph and GenAI that helps data engineer
 ![Streamlit](https://img.shields.io/badge/Streamlit-1.31+-red.svg)
 ![LangChain](https://img.shields.io/badge/LangChain-Latest-green.svg)
 
-## ✨ Features
+## Features
 
-- **📊 CSV Analysis**: Upload and analyze CSV files with automatic schema extraction
-- **🔍 SQL Generation**: Generate SQL queries from natural language questions
-- **✅ Data Quality Rules**: Automatically suggest comprehensive data quality validation rules
-- **⚡ Spark Optimization**: Get PySpark optimization recommendations and best practices
-- **🔗 Dependency Analysis**: Identify table relationships and data lineage
-- **📚 Documentation**: Generate data dictionaries, READMEs, and schema documentation
+- **CSV Analysis**: Upload and analyze CSV files with automatic schema extraction
+- **SQL Generation**: Generate SQL queries from natural language questions
+- **Data Quality Rules**: Automatically suggest comprehensive data quality validation rules
+- **Spark Optimization**: Get PySpark optimization recommendations and best practices
+- **Dependency Analysis**: Identify table relationships and data lineage
+- **Documentation**: Generate data dictionaries, READMEs, and schema documentation
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 | Component | Technology |
 |-----------|-----------|
@@ -26,13 +26,13 @@ An intelligent assistant powered by LangGraph and GenAI that helps data engineer
 | **UI** | Streamlit |
 | **Backend** | Python |
 
-## 📋 Prerequisites
+## Prerequisites
 
 - Python 3.8 or higher
 - OpenAI API key (or Ollama for local LLMs)
 - pip package manager
 
-## 🚀 Installation
+## Installation
 
 1. **Clone the repository**
    ```bash
@@ -65,7 +65,7 @@ An intelligent assistant powered by LangGraph and GenAI that helps data engineer
    # OPENAI_API_KEY=your_api_key_here
    ```
 
-## 💻 Usage
+## Usage
 
 ### Running Locally
 
@@ -107,30 +107,11 @@ An intelligent assistant powered by LangGraph and GenAI that helps data engineer
 - "Generate a data dictionary"
 - "Create a README for this dataset"
 
-## 🔧 Configuration
-
-### Switching to Llama 3 (Local)
-
-1. **Install Ollama**
-   - Download from [ollama.ai](https://ollama.ai)
-
-2. **Pull Llama 3 model**
-   ```bash
-   ollama pull llama3
-   ```
-
-3. **Update .env file**
-   ```bash
-   LLM_PROVIDER=llama
-   OLLAMA_MODEL=llama3
-   OLLAMA_BASE_URL=http://localhost:11434
-   ```
-
 ### Customizing Agent Prompts
 
 Edit `config/settings.py` to customize system prompts for each agent.
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 ai-data-engineer-assistant/
@@ -160,50 +141,18 @@ ai-data-engineer-assistant/
     └── example.csv            # Sample dataset
 ```
 
-## 🌐 Deployment to Streamlit Cloud
-
-1. **Push to GitHub**
-   ```bash
-   git init
-   git add .
-   git commit -m "Initial commit"
-   git remote add origin <your-repo-url>
-   git push -u origin main
-   ```
-
-2. **Deploy on Streamlit Cloud**
-   - Go to [share.streamlit.io](https://share.streamlit.io)
-   - Connect your GitHub repository
-   - Select the repository and branch
-   - Set `app.py` as the main file
-   - Add your `OPENAI_API_KEY` in Secrets
-
-3. **Configure Secrets**
-   - In Streamlit Cloud dashboard, go to Settings > Secrets
-   - Add:
-     ```toml
-     OPENAI_API_KEY = "your_api_key_here"
-     ```
-
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License.
 
-## 🙏 Acknowledgments
-
-- Built with [LangChain](https://langchain.com/) and [LangGraph](https://langchain-ai.github.io/langgraph/)
-- UI powered by [Streamlit](https://streamlit.io/)
-- Embeddings by [SentenceTransformers](https://www.sbert.net/)
-- Vector storage by [ChromaDB](https://www.trychroma.com/)
-
-## 📧 Contact
+## Contact
 
 For questions or support, please open an issue on GitHub.
 
----
 
 **Made with ❤️ for Data Engineers**
+
