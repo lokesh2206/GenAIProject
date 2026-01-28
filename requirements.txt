@@ -1,0 +1,13 @@
+streamlit==1.31.0
+langchain==0.1.6
+langgraph==0.0.20
+langchain-openai==0.0.5
+langchain-community==0.0.16
+sentence-transformers==2.3.1
+chromadb==0.4.22
+pandas==2.2.0
+numpy==1.26.3
+python-dotenv==1.0.1
+plotly==5.18.0
+tiktoken==0.5.2
+openai==1.10.0

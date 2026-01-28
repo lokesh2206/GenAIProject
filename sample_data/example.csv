@@ -1,0 +1,11 @@
+customer_id,customer_name,email,country,total_orders,total_revenue,signup_date,is_active
+1,John Smith,john.smith@email.com,USA,15,2500.50,2023-01-15,TRUE
+2,Emma Johnson,emma.j@email.com,UK,8,1200.75,2023-02-20,TRUE
+3,Michael Chen,m.chen@email.com,China,22,4500.00,2023-01-10,TRUE
+4,Sarah Williams,sarah.w@email.com,Canada,5,750.25,2023-03-05,FALSE
+5,David Brown,d.brown@email.com,USA,18,3200.80,2023-01-25,TRUE
+6,Lisa Garcia,lisa.garcia@email.com,Spain,12,1800.50,2023-02-15,TRUE
+7,James Wilson,j.wilson@email.com,Australia,9,1500.00,2023-03-01,TRUE
+8,Maria Rodriguez,maria.r@email.com,Mexico,6,900.30,2023-02-28,FALSE
+9,Robert Taylor,r.taylor@email.com,USA,25,5000.00,2023-01-05,TRUE
+10,Jennifer Lee,jennifer.lee@email.com,South Korea,14,2300.75,2023-02-10,TRUE
